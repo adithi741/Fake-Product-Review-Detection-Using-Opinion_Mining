@@ -42,7 +42,7 @@ In the digital era, online reviews play a crucial role in shaping product reputa
 
 ## 📂 Project Structure
 
-**fake-product-review-detection/
+fake-product-review-detection/
 ├── README.md                 # Project documentation
 ├── LICENSE                   # License for the project
 ├── requirements.txt          # Python dependencies
@@ -59,7 +59,7 @@ In the digital era, online reviews play a crucial role in shaping product reputa
 │   ├── feature_importance.png
 ├── docs/                     # Documentation files
 │   ├── project_report.pdf
-│   ├── references.**
+│   ├── references.md
 
 ---
 
