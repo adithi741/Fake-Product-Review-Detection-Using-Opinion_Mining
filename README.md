@@ -90,7 +90,7 @@ fake-product-review-detection/
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/<your-username>/fake-product-review-detection.git
+    git clone https://github.com/<adithi741>/fake-product-review-detection.git
     ```
 2. Navigate to the directory:
     ```bash
