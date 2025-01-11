@@ -42,6 +42,7 @@ In the digital era, online reviews play a crucial role in shaping product reputa
 
 ## 📂 Project Structure
 
+```plaintext
 fake-product-review-detection/
 ├── README.md                 # Project documentation
 ├── LICENSE                   # License for the project
@@ -60,6 +61,7 @@ fake-product-review-detection/
 ├── docs/                     # Documentation files
 │   ├── project_report.pdf
 │   ├── references.md
+```
 
 ---
 
@@ -78,39 +80,45 @@ fake-product-review-detection/
 ---
 
 ## 📥 Installation
-**Prerequisites**
+
+### Prerequisites
+
 - Python 3.8+
 - Libraries: **scikit-learn, nltk, pandas, matplotlib, seaborn**
 
 ### Steps
 
 1. Clone the repository:
-**bash
-      git clone https://github.com/<your-username>/fake-product-review-detection.git**
-
+    ```bash
+    git clone https://github.com/<your-username>/fake-product-review-detection.git
+    ```
 2. Navigate to the directory:
-**bash
-      cd fake-product-review-detection**
-
+    ```bash
+    cd fake-product-review-detection
+    ```
 3. Install dependencies:
-**bash
-      pip install -r requirements.txt**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ---
 
 ## 🚀 Usage
 ### 1. Prepare the Dataset
-- Place your dataset in the data/ folder.
-- Ensure the file is named reviews.csv.
+- Place your dataset in the `data/` folder.
+- Ensure the file is named `reviews.csv`.
+  
 ### 2. Run the Notebooks
 - Open and execute the notebooks under **notebooks/** in Jupyter or Colab:
 - **FakeReviewDetection.ipynb:** Perform end-to-end detection and analysis.
+  
 ### 3. Execute Scripts
 - Use Python scripts for automation:
-**bash
-python src/data_preprocessing.py
-python src/review_analysis.py
-python src/review_classification.py**
+  ```bash
+  python src/data_preprocessing.py
+  python src/review_analysis.py
+  python src/review_classification.py
+  ```
 
 ---
 
@@ -121,7 +129,7 @@ python src/review_classification.py**
       1. Review Text Sentiments
       2. IP Address Patterns
       3. Frequency of Similar Reviews
-- **Visualizations:** Insights are saved in the **images/** folder.
+- **Visualizations:** Insights are saved in the `images/` folder.
 
 ---
 
@@ -139,7 +147,7 @@ Contributions are welcome! Fork the repository, create a feature branch, and sub
 ---
 
 ## 📝 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
